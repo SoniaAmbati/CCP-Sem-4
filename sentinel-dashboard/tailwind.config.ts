@@ -13,9 +13,9 @@ const config: Config = {
           bg: "#08090a",
           card: "#111418",
           border: "#1f2937",
-          primary: "#10b981", // Emerald
-          secondary: "#3b82f6", // Blue
-          danger: "#ef4444", // Red
+          primary: "#10b981",
+          secondary: "#3b82f6",
+          danger: "#ef4444",
           muted: "#64748b",
         },
       },

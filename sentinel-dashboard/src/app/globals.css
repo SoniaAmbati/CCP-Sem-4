@@ -1,24 +1,30 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-bg: #08090a;
+  --color-cyber-card: #111418;
+  --color-cyber-border: #1f2937;
+  --color-cyber-primary: #10b981;
+  --color-cyber-secondary: #3b82f6;
+  --color-cyber-danger: #ef4444;
+  --color-cyber-muted: #64748b;
+}
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 8, 9, 10;
+  --background-end-rgb: 8, 9, 10;
+}
 
 body {
   background: #08090a;
+  color: white;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: transparent;
-}
-
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background: #1f2937;
   border-radius: 10px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #10b981;
 }
